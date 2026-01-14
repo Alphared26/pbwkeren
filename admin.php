@@ -56,14 +56,43 @@ if (!isset($_SESSION['username'])) {
 </li>
 <li class="nav-item">
     <a class="nav-link" href="admin.php?page=article">Article</a>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+    <li class="nav-item">
+    <a class="nav-link" href="admin.php?page=gallery">Gallery</a>
+>>>>>>> 140b6fa (update pbw uas)
+>>>>>>> 6742f4d (update pbw uas)
+>>>>>>> ce1a772 (update pbw uas)
 </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle text-danger fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     <?= $_SESSION['username']?>
                 </a>
                 <ul class="dropdown-menu">
+<<<<<<< HEAD
                     <li><a class="dropdown-item" href="logout.php">Logout</a></li> 
                 </ul>
+=======
+<<<<<<< HEAD
+                    <li><a class="dropdown-item" href="logout.php">Logout</a></li> 
+                </ul>
+=======
+<<<<<<< HEAD
+                    <li><a class="dropdown-item" href="logout.php">Logout</a></li> 
+                </ul>
+=======
+                    <li><a class="dropdown-item" href="admin.php?page=profile">Profile</a></li>
+<li><a class="dropdown-item" href="logout.php">Logout</a></li>
+
+                </ul>
+                 
+>>>>>>> 140b6fa (update pbw uas)
+>>>>>>> 6742f4d (update pbw uas)
+>>>>>>> ce1a772 (update pbw uas)
             </li> 
         </ul>
         </div>
@@ -89,11 +118,31 @@ if (!isset($_SESSION['username'])) {
 	 		<!-- footer begin -->
     <footer class="text-center p-3 bg-danger-subtle">
 			<div>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6742f4d (update pbw uas)
+>>>>>>> ce1a772 (update pbw uas)
 				<a href="https://www.instagram.com/udinusofficial"><i class="bi bi-instagram h2 p-2 text-dark"></i></a>
 				<a href="https://twitter.com/udinusofficial"><i class="bi bi-twitter h2 p-2 text-dark"></i></a>
 				<a href="https://wa.me/+62812685577"><i class="bi bi-whatsapp h2 p-2 text-dark"></i></a>
 			</div>
 			<div>Aprilyani Nur Safitri &copy; 2023</div>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+				<a href="https://www.instagram.com/gavin_alphared"><i class="bi bi-instagram h2 p-2 text-dark"></i></a>
+				<a href="https://twitter.com/udinusofficial"><i class="bi bi-twitter h2 p-2 text-dark"></i></a>
+				<a href="https://wa.me/6281953382671"><i class="bi bi-whatsapp h2 p-2 text-dark"></i></a>
+			</div>
+			<div>Gavin Alphared &copy; 2025</div>
+>>>>>>> 140b6fa (update pbw uas)
+>>>>>>> 6742f4d (update pbw uas)
+>>>>>>> ce1a772 (update pbw uas)
     </footer>
     <!-- footer end -->
     

@@ -212,6 +212,13 @@ include "koneksi.php";
       </div>
     </section>
     <section id="gallery" class="bg-danger-subtle text-center p-5">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6742f4d (update pbw uas)
+>>>>>>> ce1a772 (update pbw uas)
       <div class="container">
         <h1 class="fw-bold display-4 pb-3">Gallery</h1>
         <div id="carouselExample" class="carousel slide">
@@ -250,6 +257,61 @@ include "koneksi.php";
         </div>
       </div>
     </section>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+  <div class="container">
+    <h1 class="fw-bold display-4 pb-3">Gallery</h1>
+
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+
+        <?php
+          $sql = "SELECT * FROM gallery ORDER BY tanggal DESC";
+          $hasil = $conn->query($sql); 
+
+          $no = 0;
+          while ($row = $hasil->fetch_assoc()) {
+        ?>
+          <div class="carousel-item <?= ($no === 0) ? 'active' : '' ?>">
+            <img src="img/<?= $row["gambar"] ?>" class="card-img-top" alt="..." />
+          </div>
+        <?php
+            $no++;
+          } 
+        ?>
+
+      </div>
+
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+
+    </div>
+  </div>
+</section>
+
+>>>>>>> 140b6fa (update pbw uas)
+>>>>>>> 6742f4d (update pbw uas)
+>>>>>>> ce1a772 (update pbw uas)
     <section id="schedule" class="text-center p-5">
       <h1 class="fw-bold display-4 pb-3">Schedule</h1>
       <div
@@ -342,7 +404,19 @@ include "koneksi.php";
               aria-expanded="false"
               aria-controls="collapseTwo"
             >
+<<<<<<< HEAD
               SMA Negeri 1 Semarang (2024–2021)
+=======
+<<<<<<< HEAD
+              SMA Negeri 1 Semarang (2024–2021)
+=======
+<<<<<<< HEAD
+              SMA Negeri 1 Semarang (2024–2021)
+=======
+              SMA Negeri 2 Demak (2021–2024)
+>>>>>>> 140b6fa (update pbw uas)
+>>>>>>> 6742f4d (update pbw uas)
+>>>>>>> ce1a772 (update pbw uas)
             </button>
           </h2>
           <div
@@ -372,7 +446,19 @@ include "koneksi.php";
               aria-expanded="false"
               aria-controls="collapseThree"
             >
+<<<<<<< HEAD
               SMP Negeri 2 Semarang (2021–2018)
+=======
+<<<<<<< HEAD
+              SMP Negeri 2 Semarang (2021–2018)
+=======
+<<<<<<< HEAD
+              SMP Negeri 2 Semarang (2021–2018)
+=======
+              SMP Negeri 2 Demak(2018-2021)
+>>>>>>> 140b6fa (update pbw uas)
+>>>>>>> 6742f4d (update pbw uas)
+>>>>>>> ce1a772 (update pbw uas)
             </button>
           </h2>
           <div
@@ -396,11 +482,32 @@ include "koneksi.php";
     </section>
     <footer class="text-center p-5">
       <div>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6742f4d (update pbw uas)
+>>>>>>> ce1a772 (update pbw uas)
         <i class="h2 bi bi-instagram p-2"></i>
         <i class="h2 bi bi-twitter p-2"></i>
         <i class="h2 bi bi-whatsapp p-2"></i>
       </div>
       <div><p>Aprilyani Nur Safitri &copy; 2023</p></div>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+       <a href="https://www.instagram.com/gavin_alphared"><i class="bi bi-instagram h2 p-2 text-dark"></i></a>
+				<a href="https://twitter.com/udinusofficial"><i class="bi bi-twitter h2 p-2 text-dark"></i></a>
+				<a href="https://wa.me/6281953382671"><i class="bi bi-whatsapp h2 p-2 text-dark"></i></a>
+      </div>
+      
+      <div><p>Gavin Alphared &copy; 2025</p></div>
+>>>>>>> 140b6fa (update pbw uas)
+>>>>>>> 6742f4d (update pbw uas)
+>>>>>>> ce1a772 (update pbw uas)
     </footer>
     <button
       id="backToTop"
