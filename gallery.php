@@ -146,7 +146,6 @@ if (isset($_POST['simpan'])) {
         $stmt = $conn->prepare("UPDATE gallery 
                                 SET 
                                 deskripsi =?,
-                                
                                 gambar = ?,
                                 tanggal = ?,
                                 username = ?
@@ -157,9 +156,9 @@ if (isset($_POST['simpan'])) {
     } else {
 		    //jika tidak ada id, lakukan insert data baru
         $stmt = $conn->prepare("INSERT INTO gallery (deskripsi,gambar,tanggal,username)
-                                VALUES (?,?,?,?,?)");
+                                VALUES (?,?,?,?)");
 
-        $stmt->bind_param("sssss", $deskripsi, $gambar, $tanggal, $username);
+        $stmt->bind_param("ssss", $deskripsi, $gambar, $tanggal, $username);
         $simpan = $stmt->execute();
     }
 
